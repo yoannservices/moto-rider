@@ -2,7 +2,7 @@
 
 Simulateur de moto 3D sur route de col, jouable dans le navigateur.
 
-**▶ Démo en ligne : [https://yoannservices.github.io/simulateur-moto/](https://yoannservices.github.io/simulateur-moto/)**
+**▶ Démo en ligne : [https://yoannservices.github.io/moto-rider/](https://yoannservices.github.io/moto-rider/)**
 
 ## Fonctionnalités
 
@@ -31,7 +31,7 @@ Aucune installation : ouvrez `index.html` dans un navigateur, ou servez le dossi
 python -m http.server 8000
 ```
 
-puis allez sur http://localhost:8000 (dans le dossier `web/` de Mes Projets : http://localhost:8000/loisirs/simulateur-moto/).
+puis allez sur http://localhost:8000 (dans le dossier `web/` de Mes Projets : http://localhost:8000/loisirs/moto-rider/).
 
 ## Structure
 
@@ -48,4 +48,4 @@ HTML, CSS et JavaScript ; rendu 3D avec [Three.js](https://threejs.org/) r128 (c
 
 ---
 
-Fait partie de [Mes Projets](https://yoannservices.github.io/) · [Portfolio](https://yoannservices.github.io/Y.Portfolio/) · par [@yoannservices](https://github.com/yoannservices)
+Fait partie de [Mes Projets](https://yoannservices.github.io/) · [Portfolio](https://yoannservices.github.io/portfolio/) · par [@yoannservices](https://github.com/yoannservices)
