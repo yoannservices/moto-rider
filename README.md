@@ -44,11 +44,19 @@ Le comportement est une simulation simplifiée, pas un modèle de course.
 
 ## Technologies
 
-HTML, CSS et JavaScript ; rendu 3D avec [Three.js](https://threejs.org/) r128 (chargé depuis un CDN). Sans étape de build.
+HTML, CSS et JavaScript ; rendu 3D avec [Three.js](https://threejs.org/) r186 (chargé depuis un CDN par `assets/three-compat.js`). Sans étape de build.
 
 ---
 
 Fait partie de [Mes Projets](https://yoannservices.github.io/) · [Portfolio](https://yoannservices.github.io/portfolio/) · par [@yoannservices](https://github.com/yoannservices)
+
+## Fiche technique
+
+Résumé de ce que fait le code, tenu à jour à chaque modification : le lire suffit pour vérifier une information sans relire tout le jeu.
+
+- **Code** : `js/main.js` (script classique).
+- **Motos** : Ducati V4R = `ducati-v4r.glb` (yaw 0), les autres = `yamaha-r1.glb` (yaw π) ; pilote procédural.
+- **Caméras (C)** : 0 poursuite (distance 4,6 + vitesse × 1,6, orbite à la souris, retour derrière après 1,5 s) ; 1 vue casque (œil (0 ; 1,28 ; 0,1) du repère moto, horizon à moitié incliné) ; 2 vue pilote (position de la tête, vibrations selon la vitesse et le hors-piste).
 
 ## Crédits des modèles 3D
 
